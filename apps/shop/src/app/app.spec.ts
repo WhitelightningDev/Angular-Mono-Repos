@@ -25,7 +25,9 @@ describe('App', () => {
 
   it('should render title in header', () => {
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Nx Shop Demo');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Official Shop Demo'
+    );
   });
 
   it('should render navigation links', () => {
